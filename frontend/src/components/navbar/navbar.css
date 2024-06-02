@@ -1,0 +1,37 @@
+.Navbar{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 160px 20px 20px;
+}
+
+.Navback{
+    background-color: yellow;
+}
+
+.Navbar img {
+    max-width: 200px;
+    height: auto;
+}
+
+.NavbarMenu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:60px;
+    font-size: 20px;
+}
+
+.NavbarSearch input{
+    border: none;
+    border-radius: 4px;
+    width: 600px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: white;
+    color:#333;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
